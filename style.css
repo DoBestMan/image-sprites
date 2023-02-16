@@ -303,11 +303,11 @@ ul.submenu li a {
 }
 
 .section-content-nav-index {
-    width: 632px;
+    /* width: 632px;
     display: inline-block;
     background: url(../heroindex.jpg);
     background-size: contain;
-    background-repeat: no-repeat
+    background-repeat: no-repeat */
 }
 
 .section-content-nav-events {

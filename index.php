@@ -283,7 +283,7 @@
 <body>
 
     <?php //navbar here
-        include("navbar.php");
+        // include("navbar.php");
     ?>
 
     <div class="body-wrapper" style="position: relative">
@@ -364,7 +364,7 @@
 
             })
 
-            let dropCheckboxNew = document.getElementById("drop"); 
+            let dropCheckboxNew = document.getElementById("drop");
 
             dropCheckboxNew.addEventListener("change", function() { 
 
@@ -458,7 +458,7 @@
 
         <?php //prices here
 
-            include("pricesMobile.php");
+            // include("pricesMobile.php");
 
         ?>
 
@@ -472,7 +472,7 @@
 
                 <?php //prices here
 
-                    include("prices.php");
+                    // include("prices.php");
 
                 ?>
 
@@ -893,7 +893,7 @@
 
 
 
-        include("footerBar.php");
+        // include("footerBar.php");
 
     ?>
 
