@@ -43,14 +43,7 @@
         <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
         <style>
                 /***** slider styles *****/
-            .splide .splide__list .splide__slide {    
-                background-image: url(https://www.massagefy.com/img/testimonials-bg.svg);
-                background-repeat: no-repeat;
-                background-position: center center;
-                background-size: contain !important;
-                height: 410px;
-                cursor: pointer;
-            }
+
             .splide__pagination {
                 display: none;
             }
@@ -615,8 +608,9 @@
 
 
                                             <div class="flex-container-element">
-                                                <div class="flex-30 order text-left">
-                                                    <div calss="bg-staff_text"></div>
+                                                <div class="flex-30 order text-left ">
+                                                    <div class="bg-staff_text"></div>
+                                                    <!-- <div calss="bg-staff_text" width="190" height="187"></div> -->
                                                     <!-- <img src="https://www.massagefy.com/img/staff-text.svg"  alt="text with border" class="text-img" width="190" height="187"> -->
                                                 </div>
                                                 <div class="flex-70">
@@ -672,14 +666,26 @@
                                                     <p class="p-text">There are never any hidden fees or additional costs. We believe in being upfront and honest with our clients and that means no hidden fees or additional costs. When you work with us, you can rest assured knowing that you are getting the best deal possible without any surprise fees. Our rate averages between <b> $4,500 to $5,500 </b> depending on the level of care needed.</p>
                                                 </div>
                                                 <div class="flex-30 text-right">
-                                                    <img src="https://www.massagefy.com/img/flat-month.svg" alt="text with border" class="text-img month-text" width="190" height="187">
+                                                    <div class="bg-flat_month"></div>
+                                                    <!-- <img src="https://www.massagefy.com/img/flat-month.svg" alt="text with border" class="text-img month-text" width="190" height="187"> -->
+                                                    <!-- <div class="bg-flat_month-div">
+                                                        <div class="bg-flat_month"></div>
+                                                    </div> -->
+                                                    <!-- <div>
+                                                        <div class="bg-flat_month-div">
+                                                            <div class="bg-flat_month"></div>
+                                                        </div>
+                                                    </div> -->
+                                                    <!-- <img class="bg-flat_month flat_month" align="absmiddle" src=""> -->
                                                 </div>
                                             </div>
 
                                             <div class="flex-container-element">
                                                 <div class="flex-30" style="align-self: unset; margin-right: 20px;">
-                                                    <img src="https://www.massagefy.com/img/pricing-section.png" alt="pricing section image" class="pricing-section-image" width="190" height="276">
-                                                    <img src="https://www.massagefy.com/img/mobile-pricing-section.png" alt="pricing section image" class="mobile-pricing-section-image" width="" height="">
+                                                    <!-- <img src="https://www.massagefy.com/img/pricing-section.png" alt="pricing section image" class="pricing-section-image" width="190" height="276"> -->
+                                                    <div class="bg-pricing_section"></div>
+                                                    <!-- <img src="https://www.massagefy.com/img/mobile-pricing-section.png" alt="pricing section image" class="mobile-pricing-section-image" width="" height=""> -->
+                                                    <!-- <div class="bg-mobile_pricing_section"></div> -->
                                                 </div>    
                                                 <div class="flex-65">
                                                     <h1 class="header-text padding-10 location" style="margin-top: 0;">LOCATION</h1>
@@ -688,7 +694,8 @@
                                             </div>
 
                                             <div>
-                                                <img src="https://www.massagefy.com/img/divider.svg" alt="divider image" class="divider-image" width="632" height="99">
+                                                <!-- <img src="https://www.massagefy.com/img/divider.svg" alt="divider image" class="divider-image" width="632" height="99"> -->
+                                                <div class="bg-divider"></div>
                                             </div>
 
                                             <div class="header-text padding-10" style="text-align: center;"><h1 style="margin-top:0">assisted care services and plans</h1></div>
@@ -704,8 +711,9 @@
 
         <div class="flex-container-element padding" style="margin-top:0">
             <div class="flex-50">
-                <div class="header-text padding-10" style="text-align: center;"><h2>Daily Assisted Care Plan Coverage <br class="hidee"><br></h2></div>
-                <img src="https://www.massagefy.com/img/daily-care-image.png" alt="daily-care-image" width="480" height="198" class="img-size-cover">
+                <!-- <div class="header-text padding-10" style="text-align: center;"><h2>Daily Assisted Care Plan Coverage <br class="hidee"><br></h2></div> -->
+                <!-- <img src="https://www.massagefy.com/img/daily-care-image.png" alt="daily-care-image" width="480" height="198" class="img-size-cover"> -->
+                <div class="bg-daily_care_image"></div>
                 <ol style="font-family: 'Montserrat', sans-serif;">
                     <li>Help available 24/7</li>
                     <li> Three meals a day and snacks in between</li>
@@ -719,7 +727,7 @@
                 </ol>
             </div>    
             <div class="flex-50">
-                <div class="header-text padding-10" style="text-align: center;"><h2>Daily <u>Total Care</u> Plan Coverage for End of Life Terminal illness</h2></div>
+                <!-- <div class="header-text padding-10" style="text-align: center;"><h2>Daily <u>Total Care</u> Plan Coverage for End of Life Terminal illness</h2></div> -->
                 <div class="bg-care_plan"></div>
                 <ol style="font-family: 'Montserrat', sans-serif;">
                     <li>Hospice care</li>
@@ -742,27 +750,32 @@
                                     <div class="hero-banner" style="max-width: 800px;width:100%"> <!-- width:632px-->
                                         <div class="topcenter-box second-child" style="margin-top: 0;">
                                             <div>
-                                                <img src="https://www.massagefy.com/img/divider.svg" alt="divider image" class="divider-image" width="632" height="99">
+                                                <!-- <img src="https://www.massagefy.com/img/divider.svg" alt="divider image" class="divider-image" width="632" height="99"> -->
+                                                <div class="bg-divider"></div>
                                             </div>
                                             <p class="p-text" style="margin: 0;text-align: center;">Board and Care Name.</p> 
                                             <div class="header-text padding-10" style="text-align: center;"><h1 style="margin: 0;">Pebble Brook Assisted Living</h1></div>
                                             <p class="p-text" style="margin: 0.5rem;text-align: center;">RCFE License <b>#336425448.</b></p> 
                                             <div class="flex-container-element icons-container">
                                                 <div class="flex-30" style="text-align:center;font-size:14px">
-                                                    <img src="https://www.massagefy.com//img/home-icon.png" alt="home icon" class="icon" width="57" height="57"> 
+                                                    <!-- <img src="https://www.massagefy.com//img/home-icon.png" alt="home icon" class="icon" width="57" height="57">  -->
+                                                    <div class="bg-home_icon"></div>
                                                     <div class="icon-description">
                                                         <span class="p-text" style="margin-left: 0">33722 Pebble Brook Circle <br>Temecula CA 92592</span>    
                                                     </div>
                                                 </div>
                                                 <div class="flex-30" style="text-align:center;font-size:14px">
-                                                    <img src="https://www.massagefy.com//img/whatsapp-icon.png" alt="whatsapp icon" class="icon" width="57" height="57">
+                                                    <!-- <img src="https://www.massagefy.com//img/whatsapp-icon.png" alt="whatsapp icon" class="icon" width="57" height="57"> -->
+                                                    <div class="bg-whatsapp_icon"></div>
                                                     <div class="icon-description">
                                                         <a href="tel:9513030253" class="link-text">(951) 303 - 0253 landline </a>  <br> 
                                                         <a href="tel:9513031146" class="link-text">(951) 303 - 1146 fax </a>    
                                                     </div>
                                                 </div>
                                                 <div class="flex-30" style="text-align:center;font-size:14px">
-                                                    <img src="https://www.massagefy.com//img/envelop-icon.png" alt="envelop icon" class="icon"  width="57" height="57"> 
+                                                    <!-- <img src="https://www.massagefy.com//img/envelop-icon.png" alt="envelop icon" class="icon"  width="57" height="57">  -->
+                                                    <div class="bg-envelop_icon"></div>
+                                                    
                                                     <div class="icon-description">
                                                         <a href="mailto:pbshomecare@gmail.com" class="link-text">pbshomecare@gmail.com</a> 
                                                     </div>
