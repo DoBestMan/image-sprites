@@ -616,7 +616,8 @@
 
                                             <div class="flex-container-element">
                                                 <div class="flex-30 order text-left">
-                                                    <img src="https://www.massagefy.com/img/staff-text.svg"  alt="text with border" class="text-img" width="190" height="187">
+                                                    <div calss="bg-staff_text"></div>
+                                                    <!-- <img src="https://www.massagefy.com/img/staff-text.svg"  alt="text with border" class="text-img" width="190" height="187"> -->
                                                 </div>
                                                 <div class="flex-70">
                                                     <p class="p-text padding-10">We are family owned and family-run business. Our <b>1:2 caregiver-to-patient ratio</b> enables us to manage each resident down to the dot. This means your loved one will receive more personalized care, more time, and more help compared to the average big assisted living facilities in Temecula, which have a 1:16 caregiver-to-patient ratio.</p>
@@ -719,7 +720,7 @@
             </div>    
             <div class="flex-50">
                 <div class="header-text padding-10" style="text-align: center;"><h2>Daily <u>Total Care</u> Plan Coverage for End of Life Terminal illness</h2></div>
-                <img src="https://www.massagefy.com/img/care-plan.png" alt="care-plan.png" width="480" height="198" class="img-size-cover">
+                <div class="bg-care_plan"></div>
                 <ol style="font-family: 'Montserrat', sans-serif;">
                     <li>Hospice care</li>
                     <li> Bedridden care</li>

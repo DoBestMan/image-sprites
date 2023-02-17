@@ -167,6 +167,18 @@ body {
     z-index: 1001
 }
 
+.bg-care_plan {
+    width: 350px;
+    height: 146px;
+    background-color: red;
+    background: url('img/css_sprites.png') -230px -241px;
+}
+
+.bg-staff_text {
+    width: 150px; height: 150px;
+    background: url('css_sprites.png') -402px -407px;
+}
+
 .search-box {
     display: inline-block;
     width: 774px
